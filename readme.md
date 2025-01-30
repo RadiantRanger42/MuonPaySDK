@@ -19,8 +19,8 @@ Muon Pay SDK is a powerful and easy-to-integrate solution for merchants looking 
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/muon-pay-sdk.git
-cd muon-pay-sdk
+git clone https://github.com/RadiantRanger42/MuonPaySDK.git
+cd MuonPaySDK
 
 # Install dependencies
 npm install
