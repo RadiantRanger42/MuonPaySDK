@@ -1,5 +1,5 @@
 // const WebSocket = require('ws');
-// const Radiant = require('@radiantblockchain/radiantjs');
+// const Radiant = require('@chainbow/radiantjs');
 // const bip39 = require('bip39');
 // const ecc = require('tiny-secp256k1');
 // const { BIP32Factory } = require('bip32');
@@ -13,7 +13,7 @@
 
 // console.log(keypair.toWIF())
 
-const radiant = require('@radiantblockchain/radiantjs'); // RadiantJS library
+const radiant = require('@chainbow/radiantjs'); // RadiantJS library
 const {ECPairFactory} = require('ecpair');
 const ecc = require('tiny-secp256k1');
 const ECPair = ECPairFactory(ecc);

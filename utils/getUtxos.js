@@ -1,6 +1,6 @@
 import WebSocket from "ws";
 import bitcoin from "bitcoinjs-lib";
-import pkg from "@radiantblockchain/radiantjs";
+import pkg from "@chainbow/radiantjs";
 import Secrets from "../config/secrets.js";
 
 async function getAddressUTXOs(address) {

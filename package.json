@@ -4,7 +4,7 @@
     "server": "nodemon server.js"
   },
   "dependencies": {
-    "@radiantblockchain/radiantjs": "github:chainbow/radiantjs",
+    "@chainbow/radiantjs": "github:chainbow/radiantjs",
     "axios": "^1.7.9",
     "bip32": "^3.1.0",
     "bip39": "^3.1.0",

@@ -7,7 +7,7 @@ import getTransactionHistory from "../../utils/get_trans_history.js";
 import Secrets from "../../config/secrets.js";
 import db from "../../config/databse.js";
 import bitcoin from "bitcoinjs-lib";
-import pkg from "@radiantblockchain/radiantjs";
+import pkg from "@chainbow/radiantjs";
 
 import generateRadiantAddress from "../../utils/gen_new_addr.js";
 import { Satoshi } from "bitcoinjs-lib/src/types.js";

@@ -1,7 +1,7 @@
 import { scheduleJob } from "node-schedule";
 
 import Secrets from "../config/secrets.js";
-import pkg from "@radiantblockchain/radiantjs";
+import pkg from "@chainbow/radiantjs";
 import db from "../config/databse.js";
 import bitcoin from "bitcoinjs-lib";
 import getTransactionHistory from "../utils/get_trans_history.js";

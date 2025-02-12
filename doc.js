@@ -5,14 +5,14 @@ import generateAddresses from "../../utils/gen_new_addr.js";
 import getConfirmedBal from "../../utils/get_confimed_bal.js";
 
 import Secrets from "../../config/secrets.js";
-import pkg from "@radiantblockchain/radiantjs";
+import pkg from "@chainbow/radiantjs";
 import db from "../../config/databse.js";
 import bitcoin from "bitcoinjs-lib";
 import getTransactionHistory from "../../utils/get_trans_history.js";
 
 import WebSocket from "ws";
 import bitcoin from "bitcoinjs-lib";
-import pkg from "@radiantblockchain/radiantjs";
+import pkg from "@chainbow/radiantjs";
 import Secrets from "../config/secrets.js";
 const { Transaction, UnspentOutput } = pkg;
 

@@ -1,4 +1,4 @@
-const Radiant = require('@radiantblockchain/radiantjs');
+const Radiant = require('@chainbow/radiantjs');
 const ecc = require('tiny-secp256k1');
 const ECPairFactory = require('ecpair');
 const bitcoin = require('bitcoinjs-lib');
